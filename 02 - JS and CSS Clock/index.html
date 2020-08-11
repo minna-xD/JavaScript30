@@ -113,6 +113,22 @@
         secondHand.style.transition = "all 0.05s";
         secondHand.style.transitionTimingFunction = "cubic-bezier(0.1, 2.7, 0.58, 1)";
       }
+
+      if (minutes === 0) {
+        minuteHand.style.transition = "none";
+      }
+      if (minutes === 1) {
+        minuteHand.style.transition = "all 0.05s";
+        minuteHand.style.transitionTimingFunction = "cubic-bezier(0.1, 2.7, 0.58, 1)";
+      }
+
+      if (hours === 0) {
+        hourHand.style.transition = "none";
+      }
+      if (hours === 1) {
+        hourHand.style.transition = "all 0.05s";
+        hourHand.style.transitionTimingFunction = "cubic-bezier(0.1, 2.7, 0.58, 1)";
+      }
     }
 
     setInterval(setDate, 1000);
