@@ -11,3 +11,4 @@ Joined the JavaScript 30 Day Challenge at [https://JavaScript30.com](https://Jav
 | 03 - CSS Variables        | Aug 12, 2020 | JS: `querySelectorAll` gives you a node list which doesn't have the same methods as arrays.<br>CSS stuff: variables (--) |
 | 04 - Array Cardio Day 1   | Aug 13, 2020 | JS: `console.table` instead of `console.log` (doesn't seem to be working similarly in Edge, though), array functions: `filter`, `map`, `sort`, `reduce`, ternary operator (`? :`) |
 | 05 - Flex Panel Gallery   | Aug 14, 2020 | JS: `classList.toggle` is an easy way to remove or add a class<br>CSS: `flex`ing for the first time! |
+| 06 - Type Ahead           | Aug 14, 2020 | JS: regular expressions, pushing data from an array into a const array with spread (`...`), `fetch` method to get data from a URL |
