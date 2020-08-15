@@ -12,3 +12,4 @@ Joined the JavaScript 30 Day Challenge at [https://JavaScript30.com](https://Jav
 | 04 - Array Cardio Day 1   | Aug 13, 2020 | JS: `console.table` instead of `console.log` (doesn't seem to be working similarly in Edge, though), array functions: `filter`, `map`, `sort`, `reduce`, ternary operator (`? :`) |
 | 05 - Flex Panel Gallery   | Aug 14, 2020 | JS: `classList.toggle` is an easy way to remove or add a class<br>CSS: `flex`ing for the first time! |
 | 06 - Type Ahead           | Aug 14, 2020 | JS: regular expressions, pushing data from an array into a const array with spread (`...`), `fetch` method to get data from a URL |
+| 07 - Array Cardio Day 2   | Aug 15, 2020 | JS: `some` and `every` array methods, `find` and `findIndex`. Refreshing my memory of implicit return from an arrow function (super compact), as well as the usefulness of the spread operator `...`. |
