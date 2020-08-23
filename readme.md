@@ -17,7 +17,7 @@ Joined the JavaScript 30 Day Challenge at [https://JavaScript30.com](https://Jav
 | 09 - Dev Tools Domination                          | Aug 18, 2020 | `console.log` tricks: `%s` to insert a string (or you can use backticks \`\`), `%c` to insert CSS styles. `console.warn`, `console.error` and `console.info` for different types of messages, `console.clear`, `console.assert`, `console.dir`, and grouping (`console.group`, `console.groupCollapsed`, `console.groupEnd`). FUN! |
 | 10 - Hold Shift and Check Checkboxes               | Aug 20, 2020 | JS: Challenged to try this out by myself. Got it working in a way, but was confused by when the checkboxes should be cleared -- apparently never (therefore by reloading)? Anyway, reminded about the handy `this` and how you can do stuff with this and the previous this and then assign this to that :grin: |
 | 11 - Custom Video Player                           |              |  |
-| 12 - Key Sequence Detection                        |              |  |
+| 12 - Key Sequence Detection                        | Aug 23, 2020 | JS: Collecting pressed keys in an array and checking for a secret code easily with `join('')` + `includes(secretCode)`. Using `splice` to prevent "keylogging", i.e. keeping the stored array as short as needed for the code. A little bug I found: after you've typed the code and click around, Cornify images keep showing up, so I added `shift` after the secret code has been entered correctly to remove the first character in the array. |
 | 13 - Slide in on Scroll                            |              |  |
 | 14 - JavaScript References VS Copying              |              |  |
 | 15 - LocalStorage                                  |              |  |
