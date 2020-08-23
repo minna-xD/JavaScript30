@@ -16,8 +16,6 @@
     pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length)
     if (pressed.join('').includes(secretCode)) {
       cornify_add();
-      // fixed: after secret code has been written, clicking creates more images
-      pressed.shift();
     }
     console.log(pressed);
   })
