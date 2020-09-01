@@ -20,9 +20,9 @@
       <li>Loading Tapas...</li>
     </ul>
     <form class="add-items">
-      <input type="text" name="item" placeholder="Item Name" required>
+      <input type="text" name="item" placeholder="Item Name">
       <input type="submit" value="+ Add Item"><br>
-      <button id="clear">Clear list</button>
+      <button type="button" id="clear">Clear list</button>
       <button id="check">Check all</button>
       <button id="uncheck">Uncheck all</button>
     </form>
@@ -41,14 +41,16 @@
   function addItem(e) {
     e.preventDefault();
     const text = (this.querySelector('[name=item]')).value;
-    const item = {
-      text, // ES6 shorthand, instead of text: text
-      done: false
-    };
-    items.push(item);
-    populateList(items, itemsList);
-    localStorage.setItem('items', JSON.stringify(items)); // can't just set the items array, only strings
-    this.reset();
+    if (text) {
+      const item = {
+        text, // ES6 shorthand, instead of text: text
+        done: false
+      };
+      items.push(item);
+      populateList(items, itemsList);
+      localStorage.setItem('items', JSON.stringify(items)); // can't just set the items array, only strings
+      this.reset();
+    }
   }
 
   function populateList(plates = [], platesList) {
@@ -72,20 +74,21 @@
     populateList(items, itemsList);
   }
 
-  // TODO: Challenge addition
-  // Currently: doesn't refresh the page
+  // Challenge addition
   function checkAll(e) {
-    e.preventDefault();
-    console.log('check all');
+    items.map(item => item.done = true)
+    localStorage.setItem('items', JSON.stringify(items));
+    location.reload();
   }
   function uncheckAll(e) {
-    e.preventDefault();
-    console.log('uncheck all');
+    items.map(item => item.done = false)
+    localStorage.setItem('items', JSON.stringify(items));
+    location.reload();
   }
   function clearList(e) {
-    e.preventDefault();
     localStorage.setItem('items', "[]");
     populateList(items, itemsList);
+    location.reload();
   }
 
 
