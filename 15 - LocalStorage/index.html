@@ -78,17 +78,17 @@
   function checkAll(e) {
     items.map(item => item.done = true)
     localStorage.setItem('items', JSON.stringify(items));
-    location.reload();
+    populateList(items, itemsList);
   }
   function uncheckAll(e) {
     items.map(item => item.done = false)
     localStorage.setItem('items', JSON.stringify(items));
-    location.reload();
+    populateList(items, itemsList);
   }
   function clearList(e) {
-    localStorage.setItem('items', "[]");
+    items.splice(0, items.length); // one way to empty a list I guess :)
+    localStorage.setItem('items', JSON.stringify(items));
     populateList(items, itemsList);
-    location.reload();
   }
 
 
