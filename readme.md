@@ -23,7 +23,7 @@ Joined the JavaScript 30 Day Challenge at [https://JavaScript30.com](https://Jav
 | 15 - LocalStorage                                  | Aug 31, 2020 | CSS: Custom checkbox.<br>JS: Local storage, event delegation ("responsible parents, negligent children" – you can add an event listener to a parent element and then find out which child triggered it). Challenge: add uncheck/check all and clear list buttons. Added! |
 | 16 - Mouse Move Shadow                             | Sep 2, 2020 | JS: Adjusting text shadow based on the position of the cursor using `offsetY` and `offsetX`. Need to do some math adding `offsetTop` and `offsetLeft` when hovering over nested elements because they have their own offset coordinates. |
 | 17 - Sort Without Articles                         | Sep 2, 2020 | JS: Sorting a list of band names with articles but the articles shouldn't affect the sort order. Challenged to solve it first by myself – and I did! BUT, I totally forgot about reg exp even though I love reg exp! Such an elegant solution on the video. :thumbsup: |
-| 18 - Adding Up Times with Reduce                   |  |  |
+| 18 - Adding Up Times with Reduce                   | Sep 2, 2020 | JS: `map`ping to turn time string format into numbers and then `reduce`-ing for calculation. You can do `.map(parseFloat)`, too. Nifty. |
 | 19 - Webcam Fun                                    |  |  |
 | 20 - Speech Detection                              |  |  |
 | 21 - Geolocation                                   |  |  |
