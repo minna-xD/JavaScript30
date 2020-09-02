@@ -34,9 +34,9 @@
   const items = JSON.parse(localStorage.getItem('items')) || [];
 
   // Challenge addition
-  const clearButton = document.querySelector('#clear');
-  const checkButton = document.querySelector('#check');
-  const uncheckButton = document.querySelector('#uncheck');
+  const clearButton = document.getElementById('clear');
+  const checkButton = document.getElementById('check');
+  const uncheckButton = document.getElementById('uncheck');
   
   function addItem(e) {
     e.preventDefault();
