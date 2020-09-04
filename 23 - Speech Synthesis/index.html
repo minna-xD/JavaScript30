@@ -40,9 +40,16 @@
 
   function populateVoices() {
     voices = this.getVoices();
+
+    // Sort by language
+    voices.sort((a, b) => a.lang > b.lang ? 1 : -1);
+
     voicesDropdown.innerHTML = voices
+
+      // The list was filtered to include only English in the video
+      // but I want to show all languages
       //.filter(voice => voice.lang.includes('en'))
-      .map(voice => `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`)
+      .map(voice => `<option value="${voice.name}">${voice.lang}: ${voice.name}</option>`)
       .join('');
   }
 

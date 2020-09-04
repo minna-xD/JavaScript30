@@ -28,7 +28,7 @@ Joined the JavaScript 30 Day Challenge at [https://JavaScript30.com](https://Jav
 | 20 - Speech Detection                              |  |  |
 | 21 - Geolocation                                   |  |  |
 | 22 - Follow Along Link Highlighter                 | Sep 3, 2020 | JS: `getBoundingClientRect` to find out where in the viewport an element is and its dimensions.<br>CSS: a single span element moving around the page highlighting different links, transitioning smoothly with animation using `transform`. |
-| 23 - Speech Synthesis                              |  |  |
+| 23 - Speech Synthesis                              | Sep 4, 2020 | JS: Built-in speech synthesis! Alas, no Finnish voice to play around with. However, I did change the list of options a bit by sorting by language and displaying the language code first. |
 | 24 - Sticky Nav                                    |  |  |
 | 25 - Event Capture, Propagation, Bubbling and Once |  |  |
 | 26 - Stripe Follow Along Nav                       |  |  |
