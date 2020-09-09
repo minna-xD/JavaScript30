@@ -33,7 +33,7 @@ I've got to know SO much new stuff during this course and I'm always amazed how 
 | 24 - Sticky Nav                                    | Sep 7, 2020 | CSS: Sticky navbar (`position: fixed`) and programmatically adding offset to "counter" the change from being in the normal flow to being fixed. |
 | 25 - Event Capture, Propagation, Bubbling and Once | Sep 8, 2020 | JS: capturing (top-down) and bubbling (bottom-up), `stopPropagation` method, `once` property of event listeners. |
 | 26 - Stripe Follow Along Nav                       |  |  |
-| 27 - Click and Drag                                |  |  |
+| 27 - Click and Drag                                | Sep 9, 2020 | Creating a draggable row of divs. JS: `console.log({})` to see the variable values in a nice object. Lots of variables and math to get the effect. :thumbsup: <br>CSS: Lots of properties and selectors to look into: `user-select`, `will-change`, `:nth-child`<br>Other: VS Code's multicursor! Mind. Blown. :boom: |
 | 28 - Video Speed Controller                        |  |  |
 | 29 - Countdown Timer                               |  |  |
 | 30 - Whack A Mole                                  |  |  |
