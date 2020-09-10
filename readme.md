@@ -34,6 +34,6 @@ I've got to know SO much new stuff during this course and I'm always amazed how 
 | 25 - Event Capture, Propagation, Bubbling and Once | Sep 8, 2020 | JS: capturing (top-down) and bubbling (bottom-up), `stopPropagation` method, `once` property of event listeners. |
 | 26 - Stripe Follow Along Nav                       |  |  |
 | 27 - Click and Drag                                | Sep 9, 2020 | Creating a draggable row of divs. JS: `console.log({})` to see the variable values in a nice object. Lots of variables and math to get the effect. :thumbsup: <br>CSS: Lots of properties and selectors to look into: `user-select`, `will-change`, `:nth-child`<br>Other: VS Code's multicursor! Mind. Blown. :boom: |
-| 28 - Video Speed Controller                        |  |  |
+| 28 - Video Speed Controller                        | Sep 10, 2020 | JS: A simple speed controller for a video. A nice reminder to create useful variables/`const`s for more readable code. |
 | 29 - Countdown Timer                               |  |  |
 | 30 - Whack A Mole                                  |  |  |
