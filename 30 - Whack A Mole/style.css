@@ -67,3 +67,9 @@ h1 {
 .hole.up .mole {
   top: 0;
 }
+
+button {
+  display: block;
+  width: 50px;
+  margin: 0 auto;
+}
