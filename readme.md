@@ -5,6 +5,8 @@ I've learned of SO many new things during this course and I'm always amazed how 
 
 ## Challenges
 
+You can view some of these on [GitHub Pages](https://minna-xd.github.io/JavaScript30/).
+
 | Challenge                                          | Done&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Comments                    |
 | -------------------------------------------------- | ------------ | --------------------------- |
 | 01 - JavaScript Drum Kit                           | Aug 10, 2020 | JS: `querySelector`, event listeners<br>Cool CSS stuff: `transition`, `transform`<br>Not deviating from the video in my code |
