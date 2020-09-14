@@ -56,11 +56,11 @@ document.customForm.addEventListener('submit', function(e) {
   if (!isNaN(mins)) {
     timer(mins * 60);
   } else {
-    setInterval(() => {
+    this.minutes.placeholder = 'Invalid number';
+    this.minutes.style.backgroundColor = '#ffe6e6';
+    setTimeout(() => {
       this.minutes.placeholder = 'Enter Minutes';
       this.minutes.style.backgroundColor = '#fff';
     }, 1000);
-    this.minutes.placeholder = 'Invalid number';
-    this.minutes.style.backgroundColor = '#ffe6e6';
   }
 });
