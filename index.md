@@ -12,6 +12,12 @@ Extra feature: fixed a bug with the transitioning
 ## [Web cam fun](./19%20-%20Webcam%20Fun/index.html)
 As in the video for now but I have plans for this one...
 
+## [Speech synthesis](./23%20-%20Speech%20Synthesis/index.html)
+I decided to sort the list of voices by language code and include all possible ones (no filtering).
+
+## [Speech recognition](./20%20-%20Speech%20Detection/index.html)
+Have to develop this further! How cool is it to have this available out-of-the-box (albeit not very widely supported, I guess). 
+
 ## [Geolocation](./21%20-%20Geolocation/index.html)
 Just want to play around with this sometime...
 
@@ -20,9 +26,6 @@ Implemented an check for the input field.
 
 ## [List saved in local storage](./15%20-%20LocalStorage/index.html)
 Here I added uncheck/check all and clear list buttons.
-
-## [Speech synthesis](./23%20-%20Speech%20Synthesis/index.html)
-I decided to sort the list of voices by language code and include all possible ones (no filtering).
 
 ## [Drum kit](./01%20-%20JavaScript%20Drum%20Kit/index.html)
 For twitchy fingers
